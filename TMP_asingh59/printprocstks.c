@@ -1,4 +1,7 @@
+#include <conf.h>
+#include <kernel.h>
 #include <proc.h>
+#include <stdio.h>
 
 static unsigned long *esp; 
 //a static pointer variable esp which will be used to store the stack pointer value.
@@ -20,7 +23,7 @@ void printprocstks(int priority)
 		
 		{
             printf("\nProcess [%s]", proctab[i].pname);        		// Process name
-            printf("\n\tpid: %d", getpid());                     	// Process ID
+            printf("\n\tpid: %d", i);                     	// Process ID
 			printf("\n\tpriority: %d", proctab[i].pprio);       	// Process priority
 			printf("\n\tbase: 0x%08x", proctab[i].pbase);         	// Base address of the stack
 			printf("\n\tlimit: 0x%08x", proctab[i].plimit);         // Stack limit

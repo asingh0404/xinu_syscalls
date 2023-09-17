@@ -18,7 +18,7 @@ zfunction:
     shl $8,%eax
     /* Shift left by 8 bits */
 
-    or $0x000000ff,%eax
+    orl $0x000000ff,%eax
     /* Fill the right-most 8 bits with 1s */
 
     /* Deallocate the local variable space*/
