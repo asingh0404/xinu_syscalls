@@ -1,3 +1,5 @@
+Please take the latest "Done" commit
+
 I have created a "lab0.h" file that declares the functions and data structures for all 3 parts
 
 I ran the command: make depend && make && make run

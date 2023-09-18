@@ -544,6 +544,93 @@ write.o: ../sys/write.c /usr/include/stdc-predef.h ../h/conf.h \
  ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/io.h
 xdone.o: ../sys/xdone.c /usr/include/stdc-predef.h ../h/kernel.h \
  ../h/systypes.h ../h/conf.h ../h/mem.h ../h/stdio.h
+chprio.o: ../TMP_asingh59/chprio.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/q.h \
+ ../h/stdio.h ../h/lab0.h
+freemem.o: ../TMP_asingh59/freemem.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/stdio.h \
+ ../h/lab0.h ../h/proc.h
+getpid.o: ../TMP_asingh59/getpid.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/lab0.h
+getprio.o: ../TMP_asingh59/getprio.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/stdio.h ../h/lab0.h
+gettime.o: ../TMP_asingh59/gettime.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/date.h \
+ ../h/lab0.h ../h/proc.h
+kill.o: ../TMP_asingh59/kill.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/sem.h \
+ ../h/io.h ../h/q.h ../h/stdio.h ../h/lab0.h
+main.o: ../TMP_asingh59/main.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/stdio.h \
+ ../h/lab0.h
+printprocstks.o: ../TMP_asingh59/printprocstks.c \
+ /usr/include/stdc-predef.h ../h/conf.h ../h/kernel.h ../h/systypes.h \
+ ../h/mem.h ../h/proc.h ../h/stdio.h
+printsyscallsummary.o: ../TMP_asingh59/printsyscallsummary.c \
+ /usr/include/stdc-predef.h ../h/stdio.h ../h/lab0.h ../h/conf.h
+receive.o: ../TMP_asingh59/receive.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/stdio.h ../h/lab0.h
+recvclr.o: ../TMP_asingh59/recvclr.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/stdio.h ../h/lab0.h
+recvtim.o: ../TMP_asingh59/recvtim.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sleep.h ../h/stdio.h ../h/lab0.h
+resume.o: ../TMP_asingh59/resume.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/stdio.h \
+ ../h/lab0.h
+scount.o: ../TMP_asingh59/scount.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/sem.h ../h/lab0.h \
+ ../h/proc.h
+screate.o: ../TMP_asingh59/screate.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sem.h ../h/stdio.h ../h/lab0.h
+sdelete.o: ../TMP_asingh59/sdelete.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sem.h ../h/stdio.h ../h/lab0.h
+send.o: ../TMP_asingh59/send.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/stdio.h \
+ ../h/lab0.h
+setdev.o: ../TMP_asingh59/setdev.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/lab0.h
+setnok.o: ../TMP_asingh59/setnok.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/stdio.h \
+ ../h/lab0.h
+signal.o: ../TMP_asingh59/signal.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/q.h ../h/sem.h \
+ ../h/stdio.h ../h/lab0.h
+signaln.o: ../TMP_asingh59/signaln.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sem.h ../h/stdio.h ../h/lab0.h
+sleep1000.o: ../TMP_asingh59/sleep1000.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sleep.h ../h/stdio.h ../h/lab0.h
+sleep100.o: ../TMP_asingh59/sleep100.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sleep.h ../h/stdio.h ../h/lab0.h
+sleep10.o: ../TMP_asingh59/sleep10.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sleep.h ../h/stdio.h ../h/lab0.h
+sleep.o: ../TMP_asingh59/sleep.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/q.h \
+ ../h/sleep.h ../h/stdio.h ../h/lab0.h
+sreset.o: ../TMP_asingh59/sreset.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/q.h ../h/sem.h \
+ ../h/stdio.h ../h/lab0.h
+stacktrace.o: ../TMP_asingh59/stacktrace.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/stdio.h ../h/lab0.h
+suspend.o: ../TMP_asingh59/suspend.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/stdio.h ../h/lab0.h
+unsleep.o: ../TMP_asingh59/unsleep.c /usr/include/stdc-predef.h \
+ ../h/conf.h ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h \
+ ../h/q.h ../h/sleep.h ../h/stdio.h ../h/lab0.h
+wait.o: ../TMP_asingh59/wait.c /usr/include/stdc-predef.h ../h/conf.h \
+ ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/proc.h ../h/q.h ../h/sem.h \
+ ../h/stdio.h ../h/lab0.h
 ttyalloc.o: ../tty/ttyalloc.c /usr/include/stdc-predef.h ../h/conf.h \
  ../h/kernel.h ../h/systypes.h ../h/mem.h ../h/tty.h ../h/stdio.h
 ttycntl.o: ../tty/ttycntl.c /usr/include/stdc-predef.h ../h/conf.h \

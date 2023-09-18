@@ -26,7 +26,7 @@ int main()
     long res = zfunction(0xaabbccdd);
 	printf("\nZfunction(0xaabbccdd) = 0x%08x\n", res);
 
-	printprocstks(2);
+	printprocstks(-1);
     
 	syscallsummary_start();
 	resume(prX = create(prch,2000,20,"proc A",1,'A'));	

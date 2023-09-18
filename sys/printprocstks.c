@@ -19,7 +19,7 @@ void printprocstks(int priority)
 		// Checking the priority for every process entry (pentry) in proctab array.	
         // For each process entry in proctab, the function checks if the process priority (proctab[i].pprio) is greater than the specified priority.
 		
-		if(proctab[i].pprio > priority)
+		if(proctab[i].pprio > priority && proctab[i].pstate != PRFREE)
 		
 		{
             printf("\nProcess [%s]", proctab[i].pname);        		// Process name
@@ -40,13 +40,13 @@ void printprocstks(int priority)
 			
 			{
 				asm("movl %esp, esp");
-				printf("\n\tpointer: 0x%08x", esp);
+				printf("\n\tpointer: 0x %08x", esp);
 			}
 
 			else
 			
 			{
-				printf("\n\tpointer: 0x%08x", proctab[i].pesp);
+				printf("\n\tpointer: 0x %08x", proctab[i].pesp);
 
                 // Finally, it prints the stack pointer value 
                 // (esp if the process is currently running, or proctab[i].pesp if it's not).
